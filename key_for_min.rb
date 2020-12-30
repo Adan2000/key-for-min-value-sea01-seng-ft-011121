@@ -8,11 +8,11 @@ def key_for_min_value(name_hash)
 smallest_value = 0
  empty_hash = nil
  
- name_hash.each do |nm, va|
-
-  if smallest_value == 0 || va < smallest_value
+ name_hash.each do |name, value|
+binding.pry
+  if smallest_value == 0 || value < smallest_value
     smallest_value = va
-    empty_hash = nm
+    empty_hash = name
   end
  end
  empty_hash
