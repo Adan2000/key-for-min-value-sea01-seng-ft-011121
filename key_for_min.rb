@@ -9,7 +9,7 @@ smallest_value = 0
  empty_hash = nil
  
  name_hash.each do |nm, va|
-   binding.pry
+
   if smallest_value == 0 || va < smallest_value
     smallest_value = va
     empty_hash = nm
