@@ -9,7 +9,7 @@ smallest_value = 0
  empty_hash = nil
  
  name_hash.each do |name, value|
-
+bi
   if smallest_value == 0 || value < smallest_value
     smallest_value = value
     empty_hash = name
