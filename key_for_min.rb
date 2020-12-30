@@ -10,9 +10,9 @@ smallest_value = 0
  
  name_hash.each do |nm, va|
    binding.pry
-  if smallest_value == 0 || value < smallest_value
-    smallest_value = value
-    empty_hash = name
+  if smallest_value == 0 || va < smallest_value
+    smallest_value = va
+    empty_hash = nm
   end
  end
  empty_hash
